@@ -1,0 +1,100 @@
+# -------------------------
+# Node / Backend
+# -------------------------
+backend/node_modules/
+backend/npm-debug.log
+backend/yarn-debug.log
+backend/yarn-error.log
+backend/dist/
+backend/.cache/
+backend/.env
+backend/.env.local
+backend/*.log
+
+# Uploaded images (do not commit user files)
+uploads/
+backend/uploads/
+
+# Backups and dumps
+backup/
+*.zip
+*.dump
+*.archive
+*.bak
+
+# PM2 logs
+.pids/
+*.pid
+*.seed
+*.pid.lock
+
+
+# -------------------------
+# Python / MediaPipe
+# -------------------------
+mediapipe/__pycache__/
+mediapipe/.pytest_cache/
+mediapipe/venv/
+mediapipe/.env
+mediapipe/*.pyc
+mediapipe/*.pyo
+mediapipe/*.pyd
+
+
+# -------------------------
+# Databases
+# -------------------------
+pgdata/
+mongodata/
+*.sql
+*.sqlite
+*.db
+
+# Docker volumes
+docker-volume/
+docker-data/
+
+
+# -------------------------
+# OS & Editor junk
+# -------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# -------------------------
+# Logs
+# -------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# -------------------------
+# Environment & keys
+# -------------------------
+*.env
+*.env.*
+.envrc
+.env.bak
+.env.save
+credentials.json
+service-a
